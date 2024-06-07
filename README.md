@@ -17,7 +17,7 @@ Wenn die remote Dateien neuer sind, lade sie herunter, d.h. überschreibe die vo
 * Netzwerk über Internet mit beteiligten PCs und dann als SCP o.ä. schicken &rarr; würde mich einfach interessieren, wie das geht
 
 ## Soll das Script permanent laufen, z.B. direkt bei PC Neustart?
-* Der Spiele Host könnte den Savegame Ordner "überwachen" und immer, wenn es eine neue Datei gibt, diese hochladen/verschicken
+* Das Script könnte auf dem Spiel Host den Savegame Ordner "überwachen" und immer, wenn es eine neue Datei gibt, diese hochladen/verschicken
 * Der Download müsste, während das Spiel läuft, verboten sein
 * Beim Download müsste man im Allgemeinen nochmal **prüfen**, ob Datein überschrieben werden (außerhalb des Spiels ist das ja erwünscht, um einen neuen Stand zu holen)
 
