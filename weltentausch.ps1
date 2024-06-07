@@ -98,7 +98,7 @@ function FileToDiscord {
     }
 }
 
-## Check if remote and local files exist
+## Check if local files exist
 function check_files {
     param(
         [array]$upload
@@ -135,7 +135,7 @@ function get_last_message {
 ## Call the function 
 $last_message_id = get_last_message -channelId $CHANNEL_ID -header $header
 
-## Get date of laste message and modification date of local file
+## Get date of last message and modification date of local file
 $remote_date = FileFromDiscord -channelId $CHANNEL_ID -messageId $last_message_id -downloadPath $DOWNLOAD_PATH -date $true -header $header
 $remote_date = [datetime]::ParseExact($remote_date, "yyyy-MM-ddTHH:mm:ss.ffffffzzz", $null)
 
