@@ -14,7 +14,7 @@ Wenn die remote Dateien neuer sind, lade sie herunter, d.h. überschreibe die vo
 ## Disord erlaubt max. 25 MB pro POST Anfrage
 * file chunks: https://blog.idera.com/database-tools/splitting-large-files-in-smaller-parts-part-1/
 * Cloud service &rarr; gibt es eine API? Was ist das Upload Limit?
-* Netzwerk über Internet mit beteiligten PCs und dann als SCP o.ä. schicken PCs &rarr; würde mich einfach interessieren, wie das geht
+* Netzwerk über Internet mit beteiligten PCs und dann als SCP o.ä. schicken &rarr; würde mich einfach interessieren, wie das geht
 
 ## Soll das Script permanent laufen, z.B. direkt bei PC Neustart?
 * Der Spiele Host könnte den Savegame Ordner "überwachen" und immer, wenn es eine neue Datei gibt, diese hochladen/verschicken
